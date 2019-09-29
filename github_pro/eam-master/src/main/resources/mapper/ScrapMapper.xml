@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.eam.mapper.ScrapMapper">
+  <resultMap id="BaseResultMap" type="com.example.eam.domain.Scrap">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="scrap_id" jdbcType="BIGINT" property="scrapId" />
+    <result column="scrp_time" jdbcType="DATE" property="scrpTime" />
+    <result column="assets_id" jdbcType="BIGINT" property="assetsId" />
+  </resultMap>
+</mapper>

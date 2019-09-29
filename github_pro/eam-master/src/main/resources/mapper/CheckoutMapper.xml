@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.eam.mapper.CheckoutMapper">
+  <resultMap id="BaseResultMap" type="com.example.eam.domain.Checkout">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="checkout" jdbcType="BIGINT" property="checkout" />
+    <result column="assets_id" jdbcType="BIGINT" property="assetsId" />
+    <result column="employee_id" jdbcType="BIGINT" property="employeeId" />
+    <result column="last_deal_id" jdbcType="BIGINT" property="lastDealId" />
+    <result column="checkout_way" jdbcType="VARCHAR" property="checkoutWay" />
+    <result column="check_count" jdbcType="BIGINT" property="checkCount" />
+    <result column="checkout_time" jdbcType="TIMESTAMP" property="checkoutTime" />
+  </resultMap>
+</mapper>

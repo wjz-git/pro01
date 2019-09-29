@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.eam.mapper.AssetsMapper">
+  <resultMap id="BaseResultMap" type="com.example.eam.domain.Assets">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="assets_id" jdbcType="BIGINT" property="assetsId" />
+    <result column="assets_sn" jdbcType="INTEGER" property="assetsSn" />
+    <result column="assets_name" jdbcType="VARCHAR" property="assetsName" />
+    <result column="assets_source" jdbcType="VARCHAR" property="assetsSource" />
+    <result column="assets_time" jdbcType="TIMESTAMP" property="assetsTime" />
+    <result column="assets_type_id" jdbcType="BIGINT" property="assetsTypeId" />
+    <result column="assets_status" jdbcType="INTEGER" property="assetsStatus" />
+    <result column="depreciation_way_id" jdbcType="BIGINT" property="depreciationWayId" />
+    <result column="assets_value" jdbcType="BIGINT" property="assetsValue" />
+    <result column="remarks" jdbcType="VARCHAR" property="remarks" />
+    <result column="service_life" jdbcType="BIGINT" property="serviceLife" />
+    <result column="count" jdbcType="BIGINT" property="count" />
+    <result column="consumable" jdbcType="BIGINT" property="consumable" />
+  </resultMap>
+</mapper>
